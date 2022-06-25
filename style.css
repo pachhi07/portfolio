@@ -1,0 +1,99 @@
+* {
+  padding: 0%;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 100vh;
+  /* background-image: url("https://image.shutterstock.com/image-photo/mountains-under-mist-morning-amazing-600w-1725825019.jpg"); */
+  background-image: url(./pic.jpg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.heading {
+  display: flex;
+  color: black;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 45px;
+  padding-left: 8%;
+  padding right: 8%;
+}
+
+.logo {
+  color: white;
+  font-size: 35px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+span {
+  color: red;
+}
+
+header ul li {
+  list-style-type: none;
+  display: inline;
+  padding: 10px 25px;
+}
+
+header ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+header ul li a:hover {
+  color: red;
+}
+
+.btn {
+  background-color: palevioletred;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  border: 2px solid transparent;
+  border-radius: 30px;
+  padding: 10px 25px;
+}
+
+.btn:hover {
+  transform: scale(1.2);
+}
+
+.about-content {
+  text-align: center;
+  padding: 7%;
+}
+
+h2 {
+  color: white;
+  font-size: 20px;
+}
+
+h3 {
+  color: red;
+    letter-spacing: 3px;
+  font-size: 25px;
+  margin-top: 20px;
+}
+
+h4 {
+  margin-top: 1%;
+  color: bisque;
+  letter-spacing: 3px;
+  font-size: 20px;
+}
+
+input{
+  padding: 1%;
+  margin-top: 3%;
+}
+input[type=submit]{
+  background-color: black;
+  color: white;
+  border: 2px solid red;
+}
